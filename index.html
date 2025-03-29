@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik Agarwal - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>Ritik Agarwal</h1>
+        <button id="theme-toggle">🌙</button>
+        <button id="login-btn">Login</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Passionate About Engineering & AI</h2>
+        <p>Welcome to my portfolio. Explore my projects, blog, and resume.</p>
+        <a href="assets/resume.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog">
+        <h2>Blog</h2>
+        <div id="blog-posts"></div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="firebase-config.js"></script>
+</body>
+</html>
